@@ -1,5 +1,39 @@
 [
   {
+    "id": "cyber-acoustic-feedbacker",
+    "name": "Cyber Acoustic Feedbacker",
+    "brand": "Cyber Audio",
+    "category": "utility",
+    "repo": "https://github.com/danny1marshall1587-maker/cyber-acoustic-feedbacker-lv2.git",
+    "desc": "Natural Clean Guitar Harmonic Feedbacker & Polyphonic Sustainer with real-time pitch tracking, root/poly modes, and string resonance bloom.",
+    "version": "1.0.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/cyber-acoustic-feedbacker-lv2/releases/download/v1.0.0/cyber-acoustic-feedbacker.lv2.zip",
+    "github_url": "https://github.com/danny1marshall1587-maker/cyber-acoustic-feedbacker-lv2"
+  },
+  {
+    "id": "cyber-cloud-bloom",
+    "name": "Cyber Cloud Bloom",
+    "brand": "Cyber Audio",
+    "category": "delay",
+    "repo": "https://github.com/danny1marshall1587-maker/cyber-cloud-bloom-lv2.git",
+    "desc": "Ambient Swell-Diffused Pad Delay with SlowGear attack stripping, 8-stage cloud diffusion, tape modulation, and infinite freeze hold.",
+    "version": "1.0.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/cyber-cloud-bloom-lv2/releases/download/v1.0.0/cyber-cloud-bloom.lv2.zip",
+    "github_url": "https://github.com/danny1marshall1587-maker/cyber-cloud-bloom-lv2"
+  },
+  {
     "id": "cyber-strobe-tuner",
     "name": "Cyber Strobe & Peak Tuner",
     "brand": "CyberAudio",
