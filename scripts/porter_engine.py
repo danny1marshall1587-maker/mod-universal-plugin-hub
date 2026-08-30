@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2026 Cyber Audio
 # SPDX-License-Identifier: MIT
-# Upgraded Multi-Build System Porter Engine v2.0 for MOD Universal Multi-Architecture
+# Upgraded Multi-Build System Porter Engine v2.1 for MOD Universal Multi-Architecture
 
 import os
 import sys
@@ -35,12 +35,15 @@ def find_all_cpp_sources(src_dir):
     return sources
 
 def main():
-    parser = argparse.ArgumentParser(description="MOD Universal LV2 Multi-Architecture Porter Engine v2.0")
+    parser = argparse.ArgumentParser(description="MOD Universal LV2 Multi-Architecture Porter Engine v2.1")
     parser.add_argument("--source", required=True, help="GitHub URL or path to ZIP archive")
     parser.add_argument("--name", default="", help="Custom plugin / bundle name")
     parser.add_argument("--theme", default="copper", help="MODGUI Theme color")
     parser.add_argument("--output-dir", default="output", help="Output directory")
     args = parser.parse_args()
+
+    engine_dir = os.path.dirname(os.path.abspath(__file__))
+    bundled_inc = os.path.join(engine_dir, "include")
 
     workspace = os.path.abspath("workspace_temp")
     out_dir = os.path.abspath(args.output_dir)
@@ -49,7 +52,7 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     print("=" * 70)
-    print("  CYBER AUDIO - MOD UNIVERSAL PORTER ENGINE v2.0")
+    print("  CYBER AUDIO - MOD UNIVERSAL PORTER ENGINE v2.1")
     print("=" * 70)
 
     # 1. Fetch Source
@@ -142,6 +145,10 @@ def main():
             "/usr/include",
             "/usr/local/include",
             "/usr/local/include/sse2neon",
+            "/usr/include/lv2",
+            "/usr/include/lv2/lv2plug.in/ns/lv2core",
+            bundled_inc,
+            os.path.join(bundled_inc, "lv2"),
             src_dir,
             os.path.join(src_dir, "src"),
             os.path.join(src_dir, "include"),
@@ -154,43 +161,47 @@ def main():
         # A. Linux x86_64
         if not compiled_binaries["linux_x64"]:
             out_so = os.path.join(final_bundle_dir, f"{base_bin_name}_linux_x86_64.so")
-            cmd = f"g++ -O3 -fPIC -shared {inc_flags} {src_args} -o \"{out_so}\" -lm -lpthread -DNDEBUG 2>/dev/null || gcc -O3 -fPIC -shared {inc_flags} {src_args} -o \"{out_so}\" -lm -lpthread -DNDEBUG"
-            ok, _, _ = run_cmd(cmd)
+            cmd = f"g++ -O3 -std=c++14 -fPIC -shared {inc_flags} {src_args} -o \"{out_so}\" -lm -lpthread -DNDEBUG || gcc -O3 -fPIC -shared {inc_flags} {src_args} -o \"{out_so}\" -lm -lpthread -DNDEBUG"
+            ok, _, err = run_cmd(cmd)
             if ok and os.path.exists(out_so) and os.path.getsize(out_so) > 1024:
                 compiled_binaries["linux_x64"] = f"{base_bin_name}_linux_x86_64.so"
                 print(f"  ✓ Linux x86_64: [OK] ({os.path.getsize(out_so):,} bytes)")
             else:
-                print("  ✕ Linux x86_64: Compilation failed")
+                first_err = err.strip().splitlines()[0] if err.strip() else "Unknown error"
+                print(f"  ✕ Linux x86_64 failed: {first_err}")
 
         # B. Windows x86_64 (.dll)
         out_dll = os.path.join(final_bundle_dir, f"{base_bin_name}.dll")
-        cmd = f"x86_64-w64-mingw32-g++ -O3 -shared -static-libgcc -static-libstdc++ {inc_flags} {src_args} -o \"{out_dll}\" -lm -DNDEBUG 2>/dev/null || x86_64-w64-mingw32-gcc -O3 -shared {inc_flags} {src_args} -o \"{out_dll}\" -lm -DNDEBUG"
-        ok, _, _ = run_cmd(cmd)
+        cmd = f"x86_64-w64-mingw32-g++ -O3 -std=c++14 -shared -static-libgcc -static-libstdc++ {inc_flags} {src_args} -o \"{out_dll}\" -lm -DNDEBUG || x86_64-w64-mingw32-gcc -O3 -shared {inc_flags} {src_args} -o \"{out_dll}\" -lm -DNDEBUG"
+        ok, _, err = run_cmd(cmd)
         if ok and os.path.exists(out_dll) and os.path.getsize(out_dll) > 1024:
             compiled_binaries["windows_x64"] = f"{base_bin_name}.dll"
             print(f"  ✓ Windows x86_64 (.dll): [OK] ({os.path.getsize(out_dll):,} bytes)")
         else:
-            print("  ✕ Windows x86_64 (.dll): Compilation failed")
+            first_err = err.strip().splitlines()[0] if err.strip() else "Unknown error"
+            print(f"  ✕ Windows x86_64 (.dll) failed: {first_err}")
 
         # C. Raspberry Pi ARMv7 32-bit (.so)
         out_armv7 = os.path.join(final_bundle_dir, f"{base_bin_name}_armv7.so")
-        cmd = f"arm-linux-gnueabihf-g++ -O3 -fPIC -shared -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard {inc_flags} {src_args} -o \"{out_armv7}\" -lm -lpthread -DNDEBUG 2>/dev/null"
-        ok, _, _ = run_cmd(cmd)
+        cmd = f"arm-linux-gnueabihf-g++ -O3 -std=c++14 -fPIC -shared -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard {inc_flags} {src_args} -o \"{out_armv7}\" -lm -lpthread -DNDEBUG"
+        ok, _, err = run_cmd(cmd)
         if ok and os.path.exists(out_armv7) and os.path.getsize(out_armv7) > 1024:
             compiled_binaries["armv7"] = f"{base_bin_name}_armv7.so"
             print(f"  ✓ Raspberry Pi ARM32 (MODEP): [OK] ({os.path.getsize(out_armv7):,} bytes)")
         else:
-            print("  ✕ Raspberry Pi ARM32: Compilation failed")
+            first_err = err.strip().splitlines()[0] if err.strip() else "Unknown error"
+            print(f"  ✕ Raspberry Pi ARM32 failed: {first_err}")
 
         # D. Raspberry Pi 4/5 AArch64 64-bit (.so)
         out_arm64 = os.path.join(final_bundle_dir, f"{base_bin_name}_arm64.so")
-        cmd = f"aarch64-linux-gnu-g++ -O3 -fPIC -shared -march=armv8-a {inc_flags} {src_args} -o \"{out_arm64}\" -lm -lpthread -DNDEBUG 2>/dev/null"
-        ok, _, _ = run_cmd(cmd)
+        cmd = f"aarch64-linux-gnu-g++ -O3 -std=c++14 -fPIC -shared -march=armv8-a {inc_flags} {src_args} -o \"{out_arm64}\" -lm -lpthread -DNDEBUG"
+        ok, _, err = run_cmd(cmd)
         if ok and os.path.exists(out_arm64) and os.path.getsize(out_arm64) > 1024:
             compiled_binaries["arm64"] = f"{base_bin_name}_arm64.so"
             print(f"  ✓ Raspberry Pi ARM64 (MODEP 64): [OK] ({os.path.getsize(out_arm64):,} bytes)")
         else:
-            print("  ✕ Raspberry Pi ARM64: Compilation failed")
+            first_err = err.strip().splitlines()[0] if err.strip() else "Unknown error"
+            print(f"  ✕ Raspberry Pi ARM64 failed: {first_err}")
 
     # 4. Verified Multi-Architecture Manifest Generator
     print("\n[4/5] Synthesizing Verified Multi-Architecture manifest.ttl...")
