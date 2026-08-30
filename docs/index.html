@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD Universal Plugin Hub — Cloud Porter & Community Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hub-header">
+        <div class="header-container">
+            <div class="logo-group">
+                <div class="logo-badge">CYBER AUDIO</div>
+                <h1 class="logo-title">MOD Universal Plugin Hub</h1>
+            </div>
+            <nav class="hub-nav">
+                <button class="nav-tab active" data-tab="porter">🚀 Cloud Porter</button>
+                <button class="nav-tab" data-tab="library">🏬 Community Library</button>
+                <button class="nav-tab" data-tab="docs">📖 Developer Guide</button>
+                <a href="https://colab.research.google.com/github/danny1marshall1587-maker/mod-universal-plugin-porter/blob/main/MOD_Universal_Plugin_Porter.ipynb" target="_blank" class="colab-btn">
+                    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- TAB 1: CLOUD PORTER STUDIO -->
+        <section id="tab-porter" class="tab-pane active">
+            <div class="hero-banner">
+                <h2 class="hero-heading">Convert Any LV2 Plugin to <span class="highlight">Universal Multi-Arch</span></h2>
+                <p class="hero-subheading">Auto-compiles Windows (.dll), Linux (.so), Raspberry Pi ARM32 (.so), and Raspberry Pi ARM64 (.so) into a single FAT LV2 bundle with custom MODGUI pedal graphics.</p>
+            </div>
+
+            <div class="porter-grid">
+                <!-- Left: Form Controls -->
+                <div class="porter-card">
+                    <h3 class="card-title">1. Source Plugin</h3>
+                    
+                    <div class="form-group">
+                        <label class="form-label">GitHub Repository or ZIP URL</label>
+                        <input type="text" id="input-url" class="form-input" placeholder="https://github.com/user/my-lv2-plugin" value="https://github.com/danny1marshall1587-maker/cyber-blues-driver-lv2">
+                    </div>
+
+                    <div class="dropzone" id="dropzone">
+                        <div class="dropzone-icon">📦</div>
+                        <p class="dropzone-text"><strong>Drag &amp; Drop</strong> local LV2 .zip archive here</p>
+                        <span class="dropzone-hint">or click to browse from your computer</span>
+                        <input type="file" id="file-input" accept=".zip,.tar.gz" style="display: none;">
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label class="form-label">Custom Plugin / Pedal Name (Optional)</label>
+                        <input type="text" id="input-name" class="form-input" placeholder="e.g. Vintage Tube Overdrive">
+                    </div>
+
+                    <h3 class="card-title" style="margin-top: 24px;">2. Target Architectures</h3>
+                    <div class="target-matrix">
+                        <label class="target-chip active">
+                            <input type="checkbox" id="arch-win" checked>
+                            <span class="chip-badge">🪟 Windows 64-bit</span>
+                            <span class="chip-desc">MOD Desktop (.dll)</span>
+                        </label>
+                        <label class="target-chip active">
+                            <input type="checkbox" id="arch-linux" checked>
+                            <span class="chip-badge">🐧 Linux x86_64</span>
+                            <span class="chip-desc">MOD Desktop Linux (.so)</span>
+                        </label>
+                        <label class="target-chip active">
+                            <input type="checkbox" id="arch-arm32" checked>
+                            <span class="chip-badge">🍓 RPi ARMv7 (32-bit)</span>
+                            <span class="chip-desc">MODEP / Patchbox OS (.so)</span>
+                        </label>
+                        <label class="target-chip active">
+                            <input type="checkbox" id="arch-arm64" checked>
+                            <span class="chip-badge">⚡ RPi ARM64 (64-bit)</span>
+                            <span class="chip-desc">MODEP 64 / Dwarf / Duo X (.so)</span>
+                        </label>
+                    </div>
+
+                    <h3 class="card-title" style="margin-top: 24px;">3. Auto-MODGUI Styling</h3>
+                    <div class="theme-palette">
+                        <span class="palette-label">Pedal Finish:</span>
+                        <div class="color-options">
+                            <div class="theme-dot active" data-color="copper" style="background: #cd7f32;" title="Boutique Copper"></div>
+                            <div class="theme-dot" data-color="blue" style="background: #2563eb;" title="Cobalt Blues"></div>
+                            <div class="theme-dot" data-color="gold" style="background: #d97706;" title="Centaur Gold"></div>
+                            <div class="theme-dot" data-color="green" style="background: #16a34a;" title="Screamer Green"></div>
+                            <div class="theme-dot" data-color="orange" style="background: #ea580c;" title="Distortion Orange"></div>
+                            <div class="theme-dot" data-color="black" style="background: #18181b;" title="Midnight Black"></div>
+                            <div class="theme-dot" data-color="silver" style="background: #94a3b8;" title="Brushed Silver"></div>
+                            <div class="theme-dot" data-color="purple" style="background: #9333ea;" title="Electric Purple"></div>
+                            <div class="theme-dot" data-color="red" style="background: #dc2626;" title="Crimson Stack"></div>
+                        </div>
+                    </div>
+
+                    <button class="build-btn" id="btn-start-build">
+                        <span class="btn-icon">⚡</span> Start Multi-Arch Build &amp; Package
+                    </button>
+                </div>
+
+                <!-- Right: Live Build Monitor & Result Preview -->
+                <div class="porter-card">
+                    <div class="card-header-flex">
+                        <h3 class="card-title">Live Build Terminal</h3>
+                        <span class="status-badge" id="build-status-badge">READY</span>
+                    </div>
+
+                    <div class="terminal-window" id="terminal-log">
+                        <div class="term-line prompt">> System ready. Enter source URL or drop ZIP to begin cross-compilation.</div>
+                    </div>
+
+                    <div class="result-box" id="result-box" style="display: none;">
+                        <div class="result-header">
+                            <div class="result-icon">🎉</div>
+                            <div class="result-info">
+                                <h4 class="result-title" id="result-plugin-name">Universal FAT Plugin Bundle</h4>
+                                <span class="result-meta" id="result-meta">4/4 Architectures Compiled &bull; MODGUI Synthesized</span>
+                            </div>
+                        </div>
+
+                        <div class="result-actions">
+                            <button class="action-btn primary" id="btn-download-bundle">⬇ Download Universal FAT (.zip)</button>
+                            <a href="#" target="_blank" class="action-btn secondary" id="btn-view-github">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: COMMUNITY LIBRARY -->
+        <section id="tab-library" class="tab-pane">
+            <div class="hero-banner">
+                <h2 class="hero-heading">MOD Community Plugin Store &amp; Library</h2>
+                <p class="hero-subheading">All plugins are packaged in Universal FAT format — 100% compatible with both MOD Desktop (Windows/Mac/Linux) and Raspberry Pi MODEP.</p>
+            </div>
+
+            <div class="store-filter-bar">
+                <div class="search-box">
+                    <input type="text" id="search-library" class="search-input" placeholder="Search pedals, brands, or categories...">
+                </div>
+                <div class="category-pills">
+                    <button class="cat-pill active" data-cat="all">All Plugins</button>
+                    <button class="cat-pill" data-cat="drive">Overdrive / Distortion</button>
+                    <button class="cat-pill" data-cat="utility">Tuner / Utility</button>
+                    <button class="cat-pill" data-cat="dynamics">Dynamics &amp; Noise</button>
+                    <button class="cat-pill" data-cat="nam">NAM &amp; Amps</button>
+                </div>
+            </div>
+
+            <div class="plugins-grid" id="plugins-gallery">
+                <!-- Dynamically populated from plugins.json -->
+            </div>
+        </section>
+
+        <!-- TAB 3: DEVELOPER GUIDE -->
+        <section id="tab-docs" class="tab-pane">
+            <div class="docs-container">
+                <h2>📖 Developer Guide: Universal LV2 Multi-Architecture &amp; Cloud Porter</h2>
+                <p>Welcome to the developer documentation for creating, cross-compiling, and distributing universal plugins for the MOD Audio &amp; MODEP ecosystems.</p>
+
+                <hr class="docs-divider">
+
+                <h3>1. The Universal FAT Bundle Specification</h3>
+                <p>An LV2 bundle is a folder containing a <code>manifest.ttl</code> descriptor and binary files. By declaring multiple <code>lv2:binary</code> statements with OS and CPU architecture constraints, a single bundle seamlessly executes across Windows, macOS, Linux, and Raspberry Pi:</p>
+
+                <pre class="code-block"><code>@prefix lv2:  &lt;http://lv2plug.in/ns/lv2core#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+&lt;http://cyber-audio.co.uk/plugins/my-overdrive&gt;
+    a lv2:Plugin ;
+    lv2:binary &lt;my_overdrive.dll&gt; ;                  # Windows 64-bit
+    lv2:binary &lt;my_overdrive_linux_x86_64.so&gt; ;      # Linux Desktop 64-bit
+    lv2:binary &lt;my_overdrive_armv7.so&gt; ;             # Raspberry Pi 3/4 32-bit (MODEP)
+    lv2:binary &lt;my_overdrive_arm64.so&gt; ;             # Raspberry Pi 4/5 64-bit (MODEP 64)
+    rdfs:seeAlso &lt;my_overdrive.ttl&gt; , &lt;modgui.ttl&gt; .</code></pre>
+
+                <h3>2. Seamless Intel SSE &rarr; ARM NEON Vector Translation</h3>
+                <p>If your DSP algorithms utilize Intel SSE/AVX intrinsics (<code>_mm_add_ps</code>, <code>_mm_mul_ps</code>), the Porter automatically includes <code>sse2neon.h</code> during ARM compilation. This maps all x86 vector registers directly to ARM NEON hardware with zero performance overhead.</p>
+
+                <h3>3. Automated MODGUI Synthesis</h3>
+                <p>If your LV2 plugin does not ship with a <code>modgui/</code> web interface, the Porter inspects all <code>lv2:ControlPort</code> inputs in your <code>.ttl</code> files and generates an authentic HTML5/CSS3 pedal layout with touch-friendly rotating dials, bypass footswitch, and glowing LED indicators.</p>
+
+                <h3>4. Integrating with Blokas MODEP &amp; MOD Desktop</h3>
+                <p>Simply drop the extracted <code>.lv2</code> folder into:</p>
+                <ul>
+                    <li><strong>🪟 Windows (MOD Desktop)</strong>: <code>C:\Program Files\MOD Desktop\plugins\</code></li>
+                    <li><strong>🍓 Raspberry Pi (MODEP / Patchbox OS)</strong>: <code>/var/modep/lv2/</code> or <code>~/.lv2/</code></li>
+                    <li><strong>🍎 macOS (MOD Desktop)</strong>: <code>~/Library/Audio/Plug-Ins/LV2/</code></li>
+                    <li><strong>🐧 Linux (MOD Desktop)</strong>: <code>~/.lv2/</code> or <code>/usr/lib/lv2/</code></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="hub-footer">
+        <div class="footer-container">
+            <p>MIT License &bull; Copyright &copy; 2026 Cyber Audio &amp; Open Source Community.</p>
+            <p>Engineered for seamless compatibility across MOD Desktop, MODEP, and Patchbox OS.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
