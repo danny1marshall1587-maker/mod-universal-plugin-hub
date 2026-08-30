@@ -1,0 +1,242 @@
+[
+  {
+    "id": "bolliedelay",
+    "name": "Bollie Delay",
+    "brand": "Bollie",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/bolliedelay.lv2",
+    "desc": "Rich stereo tempo-synced tape and digital delay with cross-feedback, low/high cut filters, and modulation."
+  },
+  {
+    "id": "shiroverb",
+    "name": "Shiroverb Shimmer Reverb",
+    "brand": "SHIRO",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/SHIRO-Plugins",
+    "desc": "Ethereal shimmer reverberation pedal with octave-up pitch-shifted reflections, damping, and decay."
+  },
+  {
+    "id": "gx-slow-gear",
+    "name": "GxSlowGear Auto-Swell",
+    "brand": "Guitarix",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/GxSlowGear.lv2",
+    "desc": "Classic Boss Slow Gear SG-1 style automatic volume swell and violin-bowing envelope effect."
+  },
+  {
+    "id": "gx-switchless-wah",
+    "name": "GxSwitchlessWah",
+    "brand": "Guitarix",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/GxSwitchlessWah.lv2",
+    "desc": "Dynamic optical touch-sensitive wah-wah pedal with automatic frequency sweep and Q resonance."
+  },
+  {
+    "id": "abgate",
+    "name": "abGate Noise Suppressor",
+    "brand": "antanas",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/abGate",
+    "desc": "Fast optical guitar noise gate with decay curve control, threshold sensitivity, and low-latency clamp."
+  },
+  {
+    "id": "mod-pitchshifter",
+    "name": "MOD 2-Voice Pitch Shifter",
+    "brand": "MOD",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/mod-pitchshifter",
+    "desc": "Polyphonic dual-voice harmonizer and pitch shifter with semitone detune, scale quantize, and wet blend."
+  },
+  {
+    "id": "sooperlooper",
+    "name": "SooperLooper Multi-Track Looper",
+    "brand": "Jesse Chappell",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/sooperlooper-lv2-plugin",
+    "desc": "Pro live performance audio looper with overdub, reverse, scratch, threshold trigger, and undo/redo."
+  },
+  {
+    "id": "convo-reverb",
+    "name": "Convo IR Cab & Reverb",
+    "brand": "x42",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/convo.lv2",
+    "desc": "Zero-latency impulse response convolution loader for authentic guitar cabinet models and studio acoustic spaces."
+  },
+  {
+    "id": "tinyamp",
+    "name": "TinyAmp Tube Preamp",
+    "brand": "faust",
+    "category": "nam",
+    "repo": "https://github.com/BlokasLabs/tinyamp.lv2",
+    "desc": "Class-A vintage tube combo amplifier emulation with warm preamp breakup, gain staging, and tone control."
+  },
+  {
+    "id": "artyfx-roomy",
+    "name": "ArtyFX Roomy Reverb",
+    "brand": "OpenAV",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "desc": "High-density algorithmic room reverb with smooth diffusion, damping, and stereo width."
+  },
+  {
+    "id": "artyfx-kuiza",
+    "name": "ArtyFX Kuiza Graphic EQ",
+    "brand": "OpenAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "desc": "7-band precision guitar graphic equalizer with master level trim and visual frequency curve."
+  },
+  {
+    "id": "calf-vintage-delay",
+    "name": "Calf Vintage Delay",
+    "brand": "Calf Studio",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Analog bucket-brigade style stereo delay with warmth saturation, feedback filters, and ping-pong."
+  },
+  {
+    "id": "calf-flanger",
+    "name": "Calf Flanger",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Lush analog through-zero flanger with feedback resonance, stereo phase offset, and LFO wave modulation."
+  },
+  {
+    "id": "calf-phaser",
+    "name": "Calf 12-Stage Phaser",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Deep multi-stage optical phase shifter with adjustable pole count, stereo spread, and frequency range."
+  },
+  {
+    "id": "dpf-mverb",
+    "name": "DISTRHO MVerb Studio",
+    "brand": "DISTRHO",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/DPF-Plugins",
+    "desc": "Studio-grade Dattorro figure-of-eight plate and hall reverb algorithm with pristine decay and early reflections."
+  },
+  {
+    "id": "dpf-nekobi",
+    "name": "DISTRHO Nekobi Bass Synth",
+    "brand": "DISTRHO",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/DPF-Plugins",
+    "desc": "Classic Roland TB-303 acid bassline synthesizer with aggressive resonance diode ladder filter."
+  },
+  {
+    "id": "tap-stereo-echo",
+    "name": "TAP Stereo Echo",
+    "brand": "Tom Szilagyi",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Multi-tap stereo echo with independent left/right delay times, cross-feedback, and high-frequency damping."
+  },
+  {
+    "id": "tap-chorus-flanger",
+    "name": "TAP Chorus / Flanger",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Rich 8-voice ensemble chorus and flanger with wide stereo imaging and contour shaping."
+  },
+  {
+    "id": "tap-vibrato",
+    "name": "TAP True Vibrato",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Pitch-modulating true optical vibrato with smooth sine/triangle LFO rates and depth control."
+  },
+  {
+    "id": "caps-scape",
+    "name": "C* Scape Stereo Delay",
+    "brand": "CAPS",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Atmospheric stereo delay with dual filter sections, feedback saturation, and rhythmic subdivision."
+  },
+  {
+    "id": "caps-plate",
+    "name": "C* Plate Reverb",
+    "brand": "CAPS",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Physical modeling of vintage EMT 140 mechanical steel plate reverb with dampening and low-cut."
+  },
+  {
+    "id": "caps-chorus",
+    "name": "C* Chorus I / II",
+    "brand": "CAPS",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Analog BBD bucket-brigade dual chorus inspired by Japanese vintage ensemble pedals."
+  },
+  {
+    "id": "invada-compressor",
+    "name": "Invada Studio Compressor",
+    "brand": "Invada",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/invada-studio",
+    "desc": "VCA studio mastering compressor with optical soft-knee curve, auto makeup gain, and RMS peak detection."
+  },
+  {
+    "id": "invada-tube",
+    "name": "Invada Tube Warmer",
+    "brand": "Invada",
+    "category": "drive",
+    "repo": "https://github.com/BlokasLabs/invada-studio",
+    "desc": "Triode tube saturation and harmonic exciter for warming up direct guitar signals and amp models."
+  },
+  {
+    "id": "midifilter-transpose",
+    "name": "MIDI Transpose & Scale",
+    "brand": "openAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/midifilter.lv2",
+    "desc": "Real-time MIDI note transposition, scale quantizer, and octave switcher."
+  },
+  {
+    "id": "midifilter-cc-map",
+    "name": "MIDI CC Router & Filter",
+    "brand": "openAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/midifilter.lv2",
+    "desc": "Maps, scales, inverts, and filters continuous controller (CC) messages across MIDI channels."
+  },
+  {
+    "id": "stepseq",
+    "name": "Bespoke 16-Step MIDI Sequencer",
+    "brand": "x42",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/stepseq.lv2",
+    "desc": "16-step analog style matrix sequencer with pitch, velocity, gate length, and probability controls."
+  },
+  {
+    "id": "mda-talkbox",
+    "name": "MDA Talkbox",
+    "brand": "Paul Kellett",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "High-resolution formant vocoder and guitar talkbox effect with vowel morphing."
+  },
+  {
+    "id": "mda-overdrive",
+    "name": "MDA Soft Clipper",
+    "brand": "Paul Kellett",
+    "category": "drive",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "Discrete asymmetric soft-saturation overdrive with high-frequency rolloff and bite."
+  },
+  {
+    "id": "mda-epiano",
+    "name": "MDA Vintage EPiano",
+    "brand": "Paul Kellett",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "Classic Rhodes and Wurlitzer electric piano sound generator with velocity decay and tremolo."
+  }
+]

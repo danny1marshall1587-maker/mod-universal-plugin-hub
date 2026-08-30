@@ -6,10 +6,15 @@
     "category": "utility",
     "version": "1.0.0",
     "desc": "Studio Strobe & Peak Tuner system upgrade for MOD Desktop & MODEP with +36dB Gain boost, live VU meter, and 1-click MIDI Learn.",
-    "platforms": ["Windows", "macOS", "Linux", "RPi ARM"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "RPi ARM"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-strobe-tuner/releases/download/v1.0.0/cyber-strobe-tuner-v1.0.0.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-strobe-tuner",
-    "icon": "🍴",
+    "icon": "\ud83c\udf74",
     "color": "#00ff66"
   },
   {
@@ -19,10 +24,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Authentic classic blues overdrive LV2 pedal with multi-stage gain clipping and fat boost.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-blues-driver-lv2/releases/download/v1.0.1/cyber-blues-driver-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-blues-driver-lv2",
-    "icon": "🟦",
+    "icon": "\ud83d\udfe6",
     "color": "#2563eb"
   },
   {
@@ -32,10 +42,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Vintage British high-gain stack amplifier overdrive / distortion LV2 pedal with 3-band EQ and LED hard-clipping.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-guvnor-lv2/releases/download/v1.0.1/cyber-guvnor-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-guvnor-lv2",
-    "icon": "⬛",
+    "icon": "\u2b1b",
     "color": "#18181b"
   },
   {
@@ -45,10 +60,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Legendary transparent overdrive LV2 pedal with dual-ganged clean blend and germanium diode soft-clipping.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-klon-lv2/releases/download/v1.0.1/cyber-klon-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-klon-lv2",
-    "icon": "🟨",
+    "icon": "\ud83d\udfe8",
     "color": "#d97706"
   },
   {
@@ -58,10 +78,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Boutique Gallop / Noble tube-voiced overdrive LV2 pedal with asymmetric preamp stages, contour shaping, and bite.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-noble-drive-lv2/releases/download/v1.0.1/cyber-noble-drive-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-noble-drive-lv2",
-    "icon": "🐎",
+    "icon": "\ud83d\udc0e",
     "color": "#3f3f46"
   },
   {
@@ -71,10 +96,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Classic green overdrive LV2 pedal with mid-hump drive, active tone control, and warm diode soft-clipping.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-screamer-lv2/releases/download/v1.0.1/cyber-screamer-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-screamer-lv2",
-    "icon": "🟩",
+    "icon": "\ud83d\udfe9",
     "color": "#16a34a"
   },
   {
@@ -84,10 +114,15 @@
     "category": "drive",
     "version": "1.0.1",
     "desc": "Classic orange hard-clipping distortion LV2 pedal with big-muff style tilt tone stack.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/cyber-ds1-lv2/releases/download/v1.0.1/cyber-ds1-lv2-v1.0.1.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/cyber-ds1-lv2",
-    "icon": "🟧",
+    "icon": "\ud83d\udfe7",
     "color": "#ea580c"
   },
   {
@@ -97,10 +132,555 @@
     "category": "dynamics",
     "version": "1.0.0",
     "desc": "Boutique guitar high-end smoothing pedal with phase-smearing and adaptive dynamic fizz suppression.",
-    "platforms": ["Windows", "Linux", "RPi ARM32", "RPi ARM64"],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
     "download_url": "https://github.com/danny1marshall1587-maker/smart-fizz-killer-lv2/releases/download/v1.0.0/smart-fizz-killer-lv2-v1.0.0.zip",
     "github_url": "https://github.com/danny1marshall1587-maker/smart-fizz-killer-lv2",
-    "icon": "🟫",
+    "icon": "\ud83d\udfeb",
     "color": "#854d0e"
+  },
+  {
+    "id": "bolliedelay",
+    "name": "Bollie Delay",
+    "brand": "Bollie",
+    "category": "delay",
+    "version": "1.0.0",
+    "desc": "Rich stereo tempo-synced tape and digital delay with cross-feedback, low/high cut filters, and modulation.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/bolliedelay.lv2",
+    "icon": "\u23f1\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "shiroverb",
+    "name": "Shiroverb Shimmer Reverb",
+    "brand": "SHIRO",
+    "category": "reverb",
+    "version": "1.0.0",
+    "desc": "Ethereal shimmer reverberation pedal with octave-up pitch-shifted reflections, damping, and decay.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/SHIRO-Plugins",
+    "icon": "\ud83c\udf0c",
+    "color": "#00ff66"
+  },
+  {
+    "id": "gx-slow-gear",
+    "name": "GxSlowGear Auto-Swell",
+    "brand": "Guitarix",
+    "category": "dynamics",
+    "version": "1.0.0",
+    "desc": "Classic Boss Slow Gear SG-1 style automatic volume swell and violin-bowing envelope effect.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/GxSlowGear.lv2",
+    "icon": "\ud83c\udf9a\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "gx-switchless-wah",
+    "name": "GxSwitchlessWah",
+    "brand": "Guitarix",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Dynamic optical touch-sensitive wah-wah pedal with automatic frequency sweep and Q resonance.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/GxSwitchlessWah.lv2",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "abgate",
+    "name": "abGate Noise Suppressor",
+    "brand": "antanas",
+    "category": "dynamics",
+    "version": "1.0.0",
+    "desc": "Fast optical guitar noise gate with decay curve control, threshold sensitivity, and low-latency clamp.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/abGate",
+    "icon": "\ud83c\udf9a\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "mod-pitchshifter",
+    "name": "MOD 2-Voice Pitch Shifter",
+    "brand": "MOD",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Polyphonic dual-voice harmonizer and pitch shifter with semitone detune, scale quantize, and wet blend.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/mod-pitchshifter",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "sooperlooper",
+    "name": "SooperLooper Multi-Track Looper",
+    "brand": "Jesse Chappell",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "Pro live performance audio looper with overdub, reverse, scratch, threshold trigger, and undo/redo.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/sooperlooper-lv2-plugin",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "convo-reverb",
+    "name": "Convo IR Cab & Reverb",
+    "brand": "x42",
+    "category": "reverb",
+    "version": "1.0.0",
+    "desc": "Zero-latency impulse response convolution loader for authentic guitar cabinet models and studio acoustic spaces.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/convo.lv2",
+    "icon": "\ud83c\udf0c",
+    "color": "#00ff66"
+  },
+  {
+    "id": "tinyamp",
+    "name": "TinyAmp Tube Preamp",
+    "brand": "faust",
+    "category": "nam",
+    "version": "1.0.0",
+    "desc": "Class-A vintage tube combo amplifier emulation with warm preamp breakup, gain staging, and tone control.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/tinyamp.lv2",
+    "icon": "\ud83d\udcfb",
+    "color": "#00ff66"
+  },
+  {
+    "id": "artyfx-roomy",
+    "name": "ArtyFX Roomy Reverb",
+    "brand": "OpenAV",
+    "category": "reverb",
+    "version": "1.0.0",
+    "desc": "High-density algorithmic room reverb with smooth diffusion, damping, and stereo width.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "icon": "\ud83c\udf0c",
+    "color": "#00ff66"
+  },
+  {
+    "id": "artyfx-kuiza",
+    "name": "ArtyFX Kuiza Graphic EQ",
+    "brand": "OpenAV",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "7-band precision guitar graphic equalizer with master level trim and visual frequency curve.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "calf-vintage-delay",
+    "name": "Calf Vintage Delay",
+    "brand": "Calf Studio",
+    "category": "delay",
+    "version": "1.0.0",
+    "desc": "Analog bucket-brigade style stereo delay with warmth saturation, feedback filters, and ping-pong.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/calf",
+    "icon": "\u23f1\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "calf-flanger",
+    "name": "Calf Flanger",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Lush analog through-zero flanger with feedback resonance, stereo phase offset, and LFO wave modulation.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/calf",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "calf-phaser",
+    "name": "Calf 12-Stage Phaser",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Deep multi-stage optical phase shifter with adjustable pole count, stereo spread, and frequency range.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/calf",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "dpf-mverb",
+    "name": "DISTRHO MVerb Studio",
+    "brand": "DISTRHO",
+    "category": "reverb",
+    "version": "1.0.0",
+    "desc": "Studio-grade Dattorro figure-of-eight plate and hall reverb algorithm with pristine decay and early reflections.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/DPF-Plugins",
+    "icon": "\ud83c\udf0c",
+    "color": "#00ff66"
+  },
+  {
+    "id": "dpf-nekobi",
+    "name": "DISTRHO Nekobi Bass Synth",
+    "brand": "DISTRHO",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "Classic Roland TB-303 acid bassline synthesizer with aggressive resonance diode ladder filter.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/DPF-Plugins",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "tap-stereo-echo",
+    "name": "TAP Stereo Echo",
+    "brand": "Tom Szilagyi",
+    "category": "delay",
+    "version": "1.0.0",
+    "desc": "Multi-tap stereo echo with independent left/right delay times, cross-feedback, and high-frequency damping.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/tap-lv2",
+    "icon": "\u23f1\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "tap-chorus-flanger",
+    "name": "TAP Chorus / Flanger",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Rich 8-voice ensemble chorus and flanger with wide stereo imaging and contour shaping.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/tap-lv2",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "tap-vibrato",
+    "name": "TAP True Vibrato",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Pitch-modulating true optical vibrato with smooth sine/triangle LFO rates and depth control.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/tap-lv2",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "caps-scape",
+    "name": "C* Scape Stereo Delay",
+    "brand": "CAPS",
+    "category": "delay",
+    "version": "1.0.0",
+    "desc": "Atmospheric stereo delay with dual filter sections, feedback saturation, and rhythmic subdivision.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/caps-lv2",
+    "icon": "\u23f1\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "caps-plate",
+    "name": "C* Plate Reverb",
+    "brand": "CAPS",
+    "category": "reverb",
+    "version": "1.0.0",
+    "desc": "Physical modeling of vintage EMT 140 mechanical steel plate reverb with dampening and low-cut.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/caps-lv2",
+    "icon": "\ud83c\udf0c",
+    "color": "#00ff66"
+  },
+  {
+    "id": "caps-chorus",
+    "name": "C* Chorus I / II",
+    "brand": "CAPS",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "Analog BBD bucket-brigade dual chorus inspired by Japanese vintage ensemble pedals.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/caps-lv2",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "invada-compressor",
+    "name": "Invada Studio Compressor",
+    "brand": "Invada",
+    "category": "dynamics",
+    "version": "1.0.0",
+    "desc": "VCA studio mastering compressor with optical soft-knee curve, auto makeup gain, and RMS peak detection.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/invada-studio",
+    "icon": "\ud83c\udf9a\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "invada-tube",
+    "name": "Invada Tube Warmer",
+    "brand": "Invada",
+    "category": "drive",
+    "version": "1.0.0",
+    "desc": "Triode tube saturation and harmonic exciter for warming up direct guitar signals and amp models.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/invada-studio",
+    "icon": "\ud83d\udd25",
+    "color": "#00ff66"
+  },
+  {
+    "id": "midifilter-transpose",
+    "name": "MIDI Transpose & Scale",
+    "brand": "openAV",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "Real-time MIDI note transposition, scale quantizer, and octave switcher.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/midifilter.lv2",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "midifilter-cc-map",
+    "name": "MIDI CC Router & Filter",
+    "brand": "openAV",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "Maps, scales, inverts, and filters continuous controller (CC) messages across MIDI channels.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/midifilter.lv2",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "stepseq",
+    "name": "Bespoke 16-Step MIDI Sequencer",
+    "brand": "x42",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "16-step analog style matrix sequencer with pitch, velocity, gate length, and probability controls.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/stepseq.lv2",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
+  },
+  {
+    "id": "mda-talkbox",
+    "name": "MDA Talkbox",
+    "brand": "Paul Kellett",
+    "category": "modulation",
+    "version": "1.0.0",
+    "desc": "High-resolution formant vocoder and guitar talkbox effect with vowel morphing.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/mda-lv2",
+    "icon": "\ud83c\udf0a",
+    "color": "#00ff66"
+  },
+  {
+    "id": "mda-overdrive",
+    "name": "MDA Soft Clipper",
+    "brand": "Paul Kellett",
+    "category": "drive",
+    "version": "1.0.0",
+    "desc": "Discrete asymmetric soft-saturation overdrive with high-frequency rolloff and bite.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/mda-lv2",
+    "icon": "\ud83d\udd25",
+    "color": "#00ff66"
+  },
+  {
+    "id": "mda-epiano",
+    "name": "MDA Vintage EPiano",
+    "brand": "Paul Kellett",
+    "category": "utility",
+    "version": "1.0.0",
+    "desc": "Classic Rhodes and Wurlitzer electric piano sound generator with velocity decay and tremolo.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "RPi ARM32",
+      "RPi ARM64"
+    ],
+    "download_url": "https://github.com/danny1marshall1587-maker/mod-universal-plugin-hub/releases/tag/v1.0.0",
+    "github_url": "https://github.com/BlokasLabs/mda-lv2",
+    "icon": "\ud83d\udee0\ufe0f",
+    "color": "#00ff66"
   }
 ]
