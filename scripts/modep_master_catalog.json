@@ -1,0 +1,730 @@
+[
+  {
+    "id": "bolliedelay",
+    "name": "Bollie Delay",
+    "brand": "Bollie",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/bolliedelay.lv2",
+    "desc": "Rich stereo tempo-synced tape and digital delay with cross-feedback, low/high cut filters, and modulation."
+  },
+  {
+    "id": "shiroverb",
+    "name": "Shiroverb Shimmer Reverb",
+    "brand": "SHIRO",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/SHIRO-Plugins",
+    "desc": "Ethereal shimmer reverberation pedal with octave-up pitch-shifted reflections, damping, and decay."
+  },
+  {
+    "id": "gx-slow-gear",
+    "name": "GxSlowGear Auto-Swell",
+    "brand": "Guitarix",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/GxSlowGear.lv2",
+    "desc": "Classic Boss Slow Gear SG-1 style automatic volume swell and violin-bowing envelope effect."
+  },
+  {
+    "id": "gx-switchless-wah",
+    "name": "GxSwitchlessWah",
+    "brand": "Guitarix",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/GxSwitchlessWah.lv2",
+    "desc": "Dynamic optical touch-sensitive wah-wah pedal with automatic frequency sweep and Q resonance."
+  },
+  {
+    "id": "abgate",
+    "name": "abGate Noise Suppressor",
+    "brand": "antanas",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/abGate",
+    "desc": "Fast optical guitar noise gate with decay curve control, threshold sensitivity, and low-latency clamp."
+  },
+  {
+    "id": "mod-pitchshifter",
+    "name": "MOD 2-Voice Pitch Shifter",
+    "brand": "MOD",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/mod-pitchshifter",
+    "desc": "Polyphonic dual-voice harmonizer and pitch shifter with semitone detune, scale quantize, and wet blend."
+  },
+  {
+    "id": "sooperlooper",
+    "name": "SooperLooper Multi-Track Looper",
+    "brand": "Jesse Chappell",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/sooperlooper-lv2-plugin",
+    "desc": "Pro live performance audio looper with overdub, reverse, scratch, threshold trigger, and undo/redo."
+  },
+  {
+    "id": "convo-reverb",
+    "name": "Convo IR Cab & Reverb",
+    "brand": "x42",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/convo.lv2",
+    "desc": "Zero-latency impulse response convolution loader for authentic guitar cabinet models and studio acoustic spaces."
+  },
+  {
+    "id": "tinyamp",
+    "name": "TinyAmp Tube Preamp",
+    "brand": "faust",
+    "category": "nam",
+    "repo": "https://github.com/BlokasLabs/tinyamp.lv2",
+    "desc": "Class-A vintage tube combo amplifier emulation with warm preamp breakup, gain staging, and tone control."
+  },
+  {
+    "id": "artyfx-roomy",
+    "name": "ArtyFX Roomy Reverb",
+    "brand": "OpenAV",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "desc": "High-density algorithmic room reverb with smooth diffusion, damping, and stereo width."
+  },
+  {
+    "id": "artyfx-kuiza",
+    "name": "ArtyFX Kuiza Graphic EQ",
+    "brand": "OpenAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/openAV-ArtyFX",
+    "desc": "7-band precision guitar graphic equalizer with master level trim and visual frequency curve."
+  },
+  {
+    "id": "calf-vintage-delay",
+    "name": "Calf Vintage Delay",
+    "brand": "Calf Studio",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Analog bucket-brigade style stereo delay with warmth saturation, feedback filters, and ping-pong."
+  },
+  {
+    "id": "calf-flanger",
+    "name": "Calf Flanger",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Lush analog through-zero flanger with feedback resonance, stereo phase offset, and LFO wave modulation."
+  },
+  {
+    "id": "calf-phaser",
+    "name": "Calf 12-Stage Phaser",
+    "brand": "Calf Studio",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/calf",
+    "desc": "Deep multi-stage optical phase shifter with adjustable pole count, stereo spread, and frequency range."
+  },
+  {
+    "id": "dpf-mverb",
+    "name": "DISTRHO MVerb Studio",
+    "brand": "DISTRHO",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/DPF-Plugins",
+    "desc": "Studio-grade Dattorro figure-of-eight plate and hall reverb algorithm with pristine decay and early reflections."
+  },
+  {
+    "id": "dpf-nekobi",
+    "name": "DISTRHO Nekobi Bass Synth",
+    "brand": "DISTRHO",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/DPF-Plugins",
+    "desc": "Classic Roland TB-303 acid bassline synthesizer with aggressive resonance diode ladder filter."
+  },
+  {
+    "id": "tap-stereo-echo",
+    "name": "TAP Stereo Echo",
+    "brand": "Tom Szilagyi",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Multi-tap stereo echo with independent left/right delay times, cross-feedback, and high-frequency damping."
+  },
+  {
+    "id": "tap-chorus-flanger",
+    "name": "TAP Chorus / Flanger",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Rich 8-voice ensemble chorus and flanger with wide stereo imaging and contour shaping."
+  },
+  {
+    "id": "tap-vibrato",
+    "name": "TAP True Vibrato",
+    "brand": "Tom Szilagyi",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/tap-lv2",
+    "desc": "Pitch-modulating true optical vibrato with smooth sine/triangle LFO rates and depth control."
+  },
+  {
+    "id": "caps-scape",
+    "name": "C* Scape Stereo Delay",
+    "brand": "CAPS",
+    "category": "delay",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Atmospheric stereo delay with dual filter sections, feedback saturation, and rhythmic subdivision."
+  },
+  {
+    "id": "caps-plate",
+    "name": "C* Plate Reverb",
+    "brand": "CAPS",
+    "category": "reverb",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Physical modeling of vintage EMT 140 mechanical steel plate reverb with dampening and low-cut."
+  },
+  {
+    "id": "caps-chorus",
+    "name": "C* Chorus I / II",
+    "brand": "CAPS",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/caps-lv2",
+    "desc": "Analog BBD bucket-brigade dual chorus inspired by Japanese vintage ensemble pedals."
+  },
+  {
+    "id": "invada-compressor",
+    "name": "Invada Studio Compressor",
+    "brand": "Invada",
+    "category": "dynamics",
+    "repo": "https://github.com/BlokasLabs/invada-studio",
+    "desc": "VCA studio mastering compressor with optical soft-knee curve, auto makeup gain, and RMS peak detection."
+  },
+  {
+    "id": "invada-tube",
+    "name": "Invada Tube Warmer",
+    "brand": "Invada",
+    "category": "drive",
+    "repo": "https://github.com/BlokasLabs/invada-studio",
+    "desc": "Triode tube saturation and harmonic exciter for warming up direct guitar signals and amp models."
+  },
+  {
+    "id": "midifilter-transpose",
+    "name": "MIDI Transpose & Scale",
+    "brand": "openAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/midifilter.lv2",
+    "desc": "Real-time MIDI note transposition, scale quantizer, and octave switcher."
+  },
+  {
+    "id": "midifilter-cc-map",
+    "name": "MIDI CC Router & Filter",
+    "brand": "openAV",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/midifilter.lv2",
+    "desc": "Maps, scales, inverts, and filters continuous controller (CC) messages across MIDI channels."
+  },
+  {
+    "id": "stepseq",
+    "name": "Bespoke 16-Step MIDI Sequencer",
+    "brand": "x42",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/stepseq.lv2",
+    "desc": "16-step analog style matrix sequencer with pitch, velocity, gate length, and probability controls."
+  },
+  {
+    "id": "mda-talkbox",
+    "name": "MDA Talkbox",
+    "brand": "Paul Kellett",
+    "category": "modulation",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "High-resolution formant vocoder and guitar talkbox effect with vowel morphing."
+  },
+  {
+    "id": "mda-overdrive",
+    "name": "MDA Soft Clipper",
+    "brand": "Paul Kellett",
+    "category": "drive",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "Discrete asymmetric soft-saturation overdrive with high-frequency rolloff and bite."
+  },
+  {
+    "id": "mda-epiano",
+    "name": "MDA Vintage EPiano",
+    "brand": "Paul Kellett",
+    "category": "utility",
+    "repo": "https://github.com/BlokasLabs/mda-lv2",
+    "desc": "Classic Rhodes and Wurlitzer electric piano sound generator with velocity decay and tremolo."
+  },
+  {
+    "id": "aether",
+    "name": "Aether",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/Dougal-s/Aether.git",
+    "desc": "Community LV2 audio effect/instrument: Aether."
+  },
+  {
+    "id": "aidadsp-lv2",
+    "name": "Aidadsp",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/AidaDSP/aidadsp-lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Aidadsp."
+  },
+  {
+    "id": "airwindows",
+    "name": "Airwindows",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/hannesbraun/airwindows-lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Airwindows."
+  },
+  {
+    "id": "amsynth",
+    "name": "Amsynth",
+    "brand": "MOD Community",
+    "category": "synth",
+    "repo": "https://github.com/amsynth/amsynth/releases/download/release-$(AMSYNTH_VERSION)",
+    "desc": "Community LV2 audio effect/instrument: Amsynth."
+  },
+  {
+    "id": "blop-lv2-labs",
+    "name": "Blop",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://git.drobilla.net/blop.lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Blop."
+  },
+  {
+    "id": "calf-labs",
+    "name": "Calf",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://calf-studio-gear.org/files",
+    "desc": "Community LV2 audio effect/instrument: Calf."
+  },
+  {
+    "id": "chow-analogtapemodel",
+    "name": "Chow Analogtapemodel",
+    "brand": "MOD Community",
+    "category": "delay",
+    "repo": "https://github.com/jatinchowdhury18/AnalogTapeModel.git",
+    "desc": "Community LV2 audio effect/instrument: Chow Analogtapemodel."
+  },
+  {
+    "id": "chow-centaur",
+    "name": "Chow Centaur",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/jatinchowdhury18/KlonCentaur.git",
+    "desc": "Community LV2 audio effect/instrument: Chow Centaur."
+  },
+  {
+    "id": "chow-kick",
+    "name": "Chow Kick",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/Chowdhury-DSP/ChowKick.git",
+    "desc": "Community LV2 audio effect/instrument: Chow Kick."
+  },
+  {
+    "id": "crypt",
+    "name": "Crypt",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/moddevices/crypt",
+    "desc": "Community LV2 audio effect/instrument: Crypt."
+  },
+  {
+    "id": "dm-ds1",
+    "name": "Dm Ds1",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/davemollen/dm-DS1.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Ds1."
+  },
+  {
+    "id": "dm-fuzz",
+    "name": "Dm Fuzz",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/davemollen/dm-Fuzz.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Fuzz."
+  },
+  {
+    "id": "dm-graindelay",
+    "name": "Dm Graindelay",
+    "brand": "MOD Community",
+    "category": "delay",
+    "repo": "https://github.com/davemollen/dm-GrainDelay.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Graindelay."
+  },
+  {
+    "id": "dm-lfo",
+    "name": "Dm Lfo",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-LFO.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Lfo."
+  },
+  {
+    "id": "dm-rat",
+    "name": "Dm Rat",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Rat.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Rat."
+  },
+  {
+    "id": "dm-repeat",
+    "name": "Dm Repeat",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Repeat.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Repeat."
+  },
+  {
+    "id": "dm-reverb",
+    "name": "Dm Reverb",
+    "brand": "MOD Community",
+    "category": "reverb",
+    "repo": "https://github.com/davemollen/dm-Reverb.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Reverb."
+  },
+  {
+    "id": "dm-reverse",
+    "name": "Dm Reverse",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Reverse.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Reverse."
+  },
+  {
+    "id": "dm-sd1",
+    "name": "Dm Sd1",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-SD1.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Sd1."
+  },
+  {
+    "id": "dm-seq",
+    "name": "Dm Seq",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Seq.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Seq."
+  },
+  {
+    "id": "dm-shredmaster",
+    "name": "Dm Shredmaster",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Shredmaster.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Shredmaster."
+  },
+  {
+    "id": "dm-spaceecho",
+    "name": "Dm Spaceecho",
+    "brand": "MOD Community",
+    "category": "delay",
+    "repo": "https://github.com/davemollen/dm-SpaceEcho.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Spaceecho."
+  },
+  {
+    "id": "dm-stutter",
+    "name": "Dm Stutter",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Stutter.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Stutter."
+  },
+  {
+    "id": "dm-timewarp",
+    "name": "Dm Timewarp",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-TimeWarp.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Timewarp."
+  },
+  {
+    "id": "dm-tubescreamer",
+    "name": "Dm Tubescreamer",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/davemollen/dm-TubeScreamer.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Tubescreamer."
+  },
+  {
+    "id": "dm-vibrato",
+    "name": "Dm Vibrato",
+    "brand": "MOD Community",
+    "category": "modulation",
+    "repo": "https://github.com/davemollen/dm-Vibrato.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Vibrato."
+  },
+  {
+    "id": "dm-whammy",
+    "name": "Dm Whammy",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/davemollen/dm-Whammy.git",
+    "desc": "Community LV2 audio effect/instrument: Dm Whammy."
+  },
+  {
+    "id": "dragonfly-reverb",
+    "name": "Dragonfly Reverb",
+    "brand": "MOD Community",
+    "category": "reverb",
+    "repo": "https://github.com/michaelwillis/dragonfly-reverb.git",
+    "desc": "Community LV2 audio effect/instrument: Dragonfly Reverb."
+  },
+  {
+    "id": "fomp-labs",
+    "name": "Fomp",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://git.drobilla.net/fomp.lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Fomp."
+  },
+  {
+    "id": "invada-lv2-labs",
+    "name": "Invada",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://launchpad.net/invada-studio/lv2/1.2/+download",
+    "desc": "Community LV2 audio effect/instrument: Invada."
+  },
+  {
+    "id": "lv2-examples-labs",
+    "name": "Lv2 Examples",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/lv2/lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Lv2 Examples."
+  },
+  {
+    "id": "master_me",
+    "name": "Master_Me",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/trummerschlunk/master_me.git",
+    "desc": "Community LV2 audio effect/instrument: Master_Me."
+  },
+  {
+    "id": "max-gen-zwabo",
+    "name": "Max Gen Zwabo",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/moddevices/max-gen-plugins.git",
+    "desc": "Community LV2 audio effect/instrument: Max Gen Zwabo."
+  },
+  {
+    "id": "mod-audio-mixers",
+    "name": "Mod Audio Mixers",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/moddevices/mod-audio-mixer-lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Mod Audio Mixers."
+  },
+  {
+    "id": "mod-convolution-loader",
+    "name": "Mod Convolution Loader",
+    "brand": "MOD Community",
+    "category": "reverb",
+    "repo": "https://github.com/moddevices/mod-convolution-loader.git",
+    "desc": "Community LV2 audio effect/instrument: Mod Convolution Loader."
+  },
+  {
+    "id": "mod-cv-plugins",
+    "name": "Mod Cv Plugins",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/moddevices/mod-cv-plugins.git",
+    "desc": "Community LV2 audio effect/instrument: Mod Cv Plugins."
+  },
+  {
+    "id": "mod-neural-amp",
+    "name": "Mod Neural Amp",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/moddevices/mod-neural-amp.git",
+    "desc": "Community LV2 audio effect/instrument: Mod Neural Amp."
+  },
+  {
+    "id": "neural-amp-modeler-lv2",
+    "name": "Neural Amp Modeler",
+    "brand": "MOD Community",
+    "category": "drive",
+    "repo": "https://github.com/mod-audio/neural-amp-modeler-lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Neural Amp Modeler."
+  },
+  {
+    "id": "neuralrecord",
+    "name": "Neuralrecord",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/brummer10/neuralrecord.git",
+    "desc": "Community LV2 audio effect/instrument: Neuralrecord."
+  },
+  {
+    "id": "notes-lv2",
+    "name": "Notes",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://git.open-music-kontrollers.ch/~hp/notes.lv2/archive",
+    "desc": "Community LV2 audio effect/instrument: Notes."
+  },
+  {
+    "id": "oneknob-series-labs",
+    "name": "Oneknob Series",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/DISTRHO/OneKnob-Series.git",
+    "desc": "Community LV2 audio effect/instrument: Oneknob Series."
+  },
+  {
+    "id": "padthv1-labs",
+    "name": "Padthv1",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://download.sourceforge.net/padthv1",
+    "desc": "Community LV2 audio effect/instrument: Padthv1."
+  },
+  {
+    "id": "pitchtracking-series",
+    "name": "Pitchtracking Series",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/DISTRHO/PitchTrackingSeries.git",
+    "desc": "Community LV2 audio effect/instrument: Pitchtracking Series."
+  },
+  {
+    "id": "qmidiarp-labs",
+    "name": "Qmidiarp",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://download.sourceforge.net/qmidiarp",
+    "desc": "Community LV2 audio effect/instrument: Qmidiarp."
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/brummer10/Ratatouille.lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Ratatouille."
+  },
+  {
+    "id": "regrader",
+    "name": "Regrader",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/linuxmao-org/regrader-port.git",
+    "desc": "Community LV2 audio effect/instrument: Regrader."
+  },
+  {
+    "id": "schrammel-ojd",
+    "name": "Schrammel Ojd",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/JanosGit/Schrammel_OJD.git",
+    "desc": "Community LV2 audio effect/instrument: Schrammel Ojd."
+  },
+  {
+    "id": "sensorium-plugins",
+    "name": "Sensorium Plugins",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/sensorium/sensorium-plugins.git",
+    "desc": "Community LV2 audio effect/instrument: Sensorium Plugins."
+  },
+  {
+    "id": "sfizz-labs",
+    "name": "Sfizz",
+    "brand": "MOD Community",
+    "category": "dynamics",
+    "repo": "https://github.com/sfztools/sfizz-ui.git",
+    "desc": "Community LV2 audio effect/instrument: Sfizz."
+  },
+  {
+    "id": "shiro-plugins",
+    "name": "Shiro Plugins",
+    "brand": "MOD Community",
+    "category": "reverb",
+    "repo": "https://github.com/ninodewit/SHIRO-Plugins.git",
+    "desc": "Community LV2 audio effect/instrument: Shiro Plugins."
+  },
+  {
+    "id": "simsam-labs",
+    "name": "Simsam",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://gitlab.com/edwillys/simsam.git",
+    "desc": "Community LV2 audio effect/instrument: Simsam."
+  },
+  {
+    "id": "srmourasilva-plugins",
+    "name": "Srmourasilva Plugins",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/SrMouraSilva/plugins-lv2.git",
+    "desc": "Community LV2 audio effect/instrument: Srmourasilva Plugins."
+  },
+  {
+    "id": "stone-phaser-labs",
+    "name": "Stone Phaser",
+    "brand": "MOD Community",
+    "category": "modulation",
+    "repo": "https://github.com/jpcima/stone-phaser.git",
+    "desc": "Community LV2 audio effect/instrument: Stone Phaser."
+  },
+  {
+    "id": "synthv1-labs",
+    "name": "Synthv1",
+    "brand": "MOD Community",
+    "category": "synth",
+    "repo": "http://download.sourceforge.net/synthv1",
+    "desc": "Community LV2 audio effect/instrument: Synthv1."
+  },
+  {
+    "id": "triceratops-labs",
+    "name": "Triceratops",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://download.sourceforge.net/triceratops",
+    "desc": "Community LV2 audio effect/instrument: Triceratops."
+  },
+  {
+    "id": "wolf-shaper",
+    "name": "Wolf Shaper",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/falkTX/wolf-shaper.git",
+    "desc": "Community LV2 audio effect/instrument: Wolf Shaper."
+  },
+  {
+    "id": "wstd-dlay",
+    "name": "Wstd Dlay",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/Wasted-Audio/wstd-dlay.git",
+    "desc": "Community LV2 audio effect/instrument: Wstd Dlay."
+  },
+  {
+    "id": "x42-plugins-labs",
+    "name": "X42 Plugins",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "http://rg42.org/misc/x42-plugins",
+    "desc": "Community LV2 audio effect/instrument: X42 Plugins."
+  },
+  {
+    "id": "zam-plugins",
+    "name": "Zam Plugins",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "https://github.com/zamaudio/zam-plugins.git",
+    "desc": "Community LV2 audio effect/instrument: Zam Plugins."
+  },
+  {
+    "id": "zeroconvo-labs",
+    "name": "Zeroconvo",
+    "brand": "MOD Community",
+    "category": "reverb",
+    "repo": "git://gareus.org/zeroconvo.lv2",
+    "desc": "Community LV2 audio effect/instrument: Zeroconvo."
+  },
+  {
+    "id": "zynaddsubfx-labs",
+    "name": "Zynaddsubfx",
+    "brand": "MOD Community",
+    "category": "utility",
+    "repo": "git://git.code.sf.net/p/zynaddsubfx/code",
+    "desc": "Community LV2 audio effect/instrument: Zynaddsubfx."
+  }
+]
